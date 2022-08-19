@@ -6,57 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My National Geographic</title>
     <script src="https://kit.fontawesome.com/c01cf239cf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-   <nav>
-       <!-- nat geo images-->
-       <a href="#" class="login-link">login</a>
-       <img src="img/ng-logo-2fl.webp" alt="ng-logo">
-       <a href="#" class="search-link">i</a>
+   <nav class="menu">
+    <img src="img/ng-logo-2fl.webp" alt="ng-logo">
+       <div>
+        <a href="#" class="login-link">Login</a>
+       <a href="#" class="search-link"></a>
+       <i id="mag-glass" class="fa-solid fa-magnifying-glass"></i>
        <a href="#" class="news-link">newsletters</a>
-       <a href="#" class="subs-ink">subscribe</a>
-       <a href="#" class="menu-link">Menu</a>
+       <a href="#" class="subs-link">Subscribe</a>
+       <a href="#" class="menu-link"><span>Menu</span> <i class="fa-solid fa-angles-down"></i></a>
+       </div>
    </nav>
 
 <header>
-    <p class="title">Latest stories</p>
-    <p class="description"><span>Subscribe</span> for full access to read stories from National</p>
+    <h1 class="title">Latest stories</h1>
+    <p class="subscription"><span class="box">Subscribe</span> for full access to read stories from National</p>
     <div class="border"></div>
+    <div id="underline"></div>
 </header>
+ 
 
-  <main>
-    <section class="main">main-news
-        <!-- add the img -->
-    <h3>History & Culture</h3>
-    <img src="img/pink-lady.png" alt="pink-lady">
-    <p>These border villages still struggle 75 years</p>
-    <h4><i class="fa-solid fa-bars>"></i>
+  <div class="container">
+    <div class="flex-container-reverse">
+      <main>
+    
+      <section class="main-news">
+        <div class="main-news-img">
+          <img src="img/pink-lady.png" alt="pink-lady">
+        </div>
+        <div>
+       <h3>History & Culture</h3>
+       <p>These border villages still struggle 75 years</p>
+        <h4><i class="fa-solid fa-bars>"></i></h4>
+        </div>
+      </section>
+      
+  
 
-    </h4>
-    </setion>
     <!-- end of main news -->
+    
+    <div class="grid-container">
 
+      
     <section class="secondary-news">
-        <!-- add img -->
+     
+  
+        <img id="dead-ss" src="img/dead-sea-scrolls.png" alt="dead-sea-scrolls" width="400px" height:="100px">
         <h3>History magazine</h3>
         <p>Who wrote the Dead Sea scrolls? Since may have the answer</p>
     </section>
 
     <section class="secondary-news">
-        <!-- add img -->
+
+        <div>
+        <img id="cotton-candy" src="img/cotton-candy.png" alt="cotton-candy">
+        </div>
+
         <h3>Magazine</h3>
         <p>Cox's Bazar, Known as a refugee camp, is also a vacation site</p>
     </section>
+    </div> <!--end of grid container-->
 
-  </main>
-  <section class="todays-picks">
+  
+      </main>
+    
+
+  <section>
+    <div class="todays-picks">
     <h2>Today's Picks</h2>
-    <div class="pick-element">
-        <!-- add img -->
+        
+      <div class="windmill">
+
+        <img src="img/big-windmill.png" alt="windmill">
+      </div>
+        <div class="pick-element-text">
         <h3>Environment <span>planet possible</span></h3>
-        <p>How the climate bill will dramatically cut U.S. emissions</p>
+        <p>How the climate bill will 
+          dramatically cut U.S. emissions</p>
+        </div>
+
+       <div class="windmill">
+        
+
+        </div>
+        
+   
     </div>
+
+
   </section>
+
+</div>
+</div>
 
 </body>
 </html>
