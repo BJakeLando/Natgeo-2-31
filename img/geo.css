@@ -1,0 +1,83 @@
+*{
+
+}
+body{
+    background-color: black;
+}
+.site-header{
+    color:white;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+
+}
+.subscribe{
+    font-size: 18px;
+}
+/*items on left side*/
+.left-side{
+    color:white;
+    display:inline-block;
+    width: 500px;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.animals{
+    font-size: 18px;
+    padding-top: 30px;
+
+}
+
+/*Photos*/
+
+#pink-lady{
+    display:inline-block;
+    padding-left: 700px;
+}
+.thunderstorm-photo{
+    padding-left: 700px;
+
+}
+
+#windmill{
+    padding-top:25px;
+    float: left;
+    padding-right:50px;
+}
+
+#train{
+    float:left;
+    padding-right: 50px;
+    padding-top: 25px;
+}
+
+#lady{
+    float:left;
+    padding-top:25px;
+    padding-right: 50px;
+}
+
+#lizard{
+    float:left;
+    padding-top:25px;
+    padding-right:50px;
+}
+
+#feet{
+    float:left;
+    padding-top:25px;
+    padding-right:50px;
+}
+
+#magma{
+    float:left;
+    padding-top:25px;
+    padding-right:50px;
+}
+#dog{
+    float:left;
+    padding-top:25px;
+    padding-right:50px;
+}
